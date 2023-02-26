@@ -3,7 +3,7 @@
 // font-family: 'Tilt Warp', cursive;
 
 * {
-border: 1px solid red;
+//border: 1px solid red;
 margin: 0;
 padding: 0;
 }
@@ -12,8 +12,15 @@ header {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    background-color: rgb(255, 253, 251);
-    padding: 50px 0 20px 0;
+    background-color: rgb(249, 241, 233);
+    padding: 20px 0 20px 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
 }
 
 header ul {
@@ -49,11 +56,16 @@ header a:active {
     header {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     }
 
     header ul {
     padding-right: 40px;
     gap: 40px;
+    }
+
+    .logo {
+    padding: 25px 25px 25px 50px;
     }
 }
 
