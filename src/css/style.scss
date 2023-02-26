@@ -65,8 +65,7 @@ body {
     max-width: 900px;
     margin: auto;
     background-image: url("../images/hero-bg.jpg"); //Photo by Josefin on Unsplash: href="https://unsplash.com/@josefin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-    background-color: rgb(45, 79, 22);
-    // height: 300px;
+    background-color: rgb(149, 180, 129);
     display: flex;
     justify-content: center;
 }
@@ -82,6 +81,46 @@ body {
     display: block;
 }
 
+// ---------------------------------------------------------------------
+// ############################## PLANT SECTIONS ########################
+// ---------------------------------------------------------------------
+
+.plant-sections-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowering-section, .succulents-section, .tropical-section {
+    max-width: 900px;
+    background-color: rgba(197, 210, 196, 0.458);
+}
+
+.plant-section-h1 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(70, 46, 46);
+    text-align: center;
+}
+
+
+.plant-section-p {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.plant-section-fig {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.plant-section-fig img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(55, 55, 55, 0.492);
+}
 
 // ---------------------------------------------------------------------
 // ############################## MEDIA QUERIES ########################
@@ -95,12 +134,24 @@ body {
     }
 
     header ul {
-    padding-right: 40px;
+    padding-right: 50px;
     gap: 40px;
     }
 
     .logo {
-    padding: 25px 25px 25px 50px;
+    padding: 25px 25px 25px 70px;
+    }
+   
+    .plant-section-h1 {
+        font-family: 'Tilt Warp', cursive;
+        color: rgb(70, 46, 46);
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .plant-section-p {
+        font-size: 1.1rem;
+        padding: 50px;
     }
 }
 
