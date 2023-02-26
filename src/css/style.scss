@@ -1,3 +1,59 @@
-p {
-color: red;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Tilt Neon', cursive;
+// font-family: 'Tilt Warp', cursive;
+
+* {
+border: 1px solid red;
+margin: 0;
+padding: 0;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(255, 253, 251);
+    padding: 50px 0 20px 0;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(70, 46, 46);
+}
+
+header a:hover {
+    color: rgb(109, 139, 58);
+    text-decoration: overline;
+}
+
+header a:active {
+    color: rgb(209, 141, 45);
+    text-decoration: overline;
+}
+
+// ---------------------------------------------------------------------
+// ############################## MEDIA QUERIES ########################
+// ---------------------------------------------------------------------
+
+@media only screen and (min-width: 800px) {
+    header {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    header ul {
+    padding-right: 40px;
+    gap: 40px;
+    }
+}
+
