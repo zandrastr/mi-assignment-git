@@ -21,6 +21,24 @@ header {
     padding: 20px 0 20px 0;
 }
 
+.toggle-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border: none;
+    background-color: rgb(228, 208, 189);
+    z-index: 10;
+}
+
+.fa-circle-half-stroke {
+    color: rgb(70, 46, 46);
+    font-size: 1.7rem;
+    z-index: -1;
+}
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -133,6 +151,61 @@ footer {
     padding: 30px;
     background-color: rgb(247, 247, 247);
     text-decoration: overline;
+}
+
+// ---------------------------------------------------------------------
+// ################################ DARK MODE ##########################
+// ---------------------------------------------------------------------
+
+.header-dark-mode {
+    background-color: rgb(109, 94, 94);
+    color: antiquewhite;
+}
+
+.header-dark-mode a {
+    color: antiquewhite;
+}
+
+.header-dark-mode .toggle-button {
+    background-color: rgb(80, 69, 69);
+}
+
+.header-dark-mode .fa-circle-half-stroke {
+    color: antiquewhite;
+}  
+
+.header-dark-mode figure {
+    padding: 10px;
+}
+
+.header-dark-mode img {
+    background-color: rgba(250, 235, 215, 0.474);
+    border-radius: 70px 5px 5px 5px;
+    padding: 15px;
+    margin-left: 45px;
+}
+
+.header-dark-mode a:hover {
+    color: rgb(188, 219, 139);
+    text-decoration: overline;
+}
+
+.header-dark-mode a:active {
+    color: rgb(248, 194, 117);
+    text-decoration: overline;
+}
+
+.body-dark-mode {
+    background-color: rgb(67, 60, 60);
+}
+
+.text-dark-mode {
+    color: rgb(255, 247, 237);
+}
+
+.footer-dark-mode {
+    background-color: rgb(67, 60, 60);
+    color: rgb(255, 247, 237);
 }
 
 // ---------------------------------------------------------------------
