@@ -182,7 +182,6 @@ footer {
     background-color: rgba(250, 235, 215, 0.474);
     border-radius: 70px 5px 5px 5px;
     padding: 15px;
-    margin-left: 45px;
 }
 
 .header-dark-mode a:hover {
@@ -226,6 +225,10 @@ footer {
 
     .logo {
     padding: 25px 25px 25px 70px;
+    }
+
+    .header-dark-mode img {
+        margin-left: 45px;
     }
    
     .plant-section-h1 {
